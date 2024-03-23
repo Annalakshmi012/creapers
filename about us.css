@@ -1,0 +1,914 @@
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar img{
+  height: 80px;
+  position: relative;
+  bottom: 13px;
+}
+.navbar{
+  list-style: none;  
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  
+  background-color: #fff;
+  box-sizing: border-box;
+  position: sticky;
+  
+  
+}
+
+.image img{
+  width: 100%;
+  height: 600px;
+}
+
+@media (min-width:901px){
+  
+  .navbar .navbar-item{
+      position: absolute;
+      right: 10px;
+      top:20px;
+  }
+  .navbar-item{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 60px;
+   padding-left: 60px;
+  }
+  .navbar .navbar-item ul li{
+      display: inline;
+      margin-right: 15px;
+      position: relative;
+      bottom: 5px;
+  }
+  .navbar .navbar-item ul li a{
+      color: #000;
+      
+      font-size: 17px;
+      transition: 0.3s;
+      transform: scaleX(0);
+      border:0 solid;
+      padding: 4px;
+  }
+  .navbar .navbar-item ul li a:hover{
+      border-bottom: 1px solid #0cc0df;
+      transform: scaleX(1);
+      color: #000;
+    }
+  .navbar-btn{
+      display:none;
+  }
+  
+  
+  }
+  @media (max-width:900px){
+    .navbar img{
+      height: 40px;
+      position: relative;
+      top: 0px;
+    }
+    
+    .navbar .navbar-item ul {
+      width: 25%;
+      position: relative;
+      left: 75%;
+      bottom: 10%;
+      background-color: #0cbfdfb6;
+      border-radius: 10px;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .navbar .navbar-item ul li{
+      
+      margin-top: 15px;
+      padding-bottom: 15px;
+      border-bottom:1px solid rgba(255,255,255,0.6);
+    }
+    .navbar .navbar-item ul li:last-child{
+        
+        
+      border-bottom:none;
+    }
+    .navbar .navbar-item ul li a{
+      color: white;
+      position: relative;
+      left: 12%;
+      top: 10px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+      .navbar-btn{
+        border:none;
+        background: none;
+        /* border:1px solid #2070c0; */
+        padding:5px;
+        position: absolute;
+        right:10px;
+        top:15px;
+        cursor: pointer;
+      }
+      .navbar-btn span{
+        display: block;
+        width: 20px;
+        border-top:1px solid #000;
+        
+      }
+      .navbar-btn span:not(:last-child){
+        margin-bottom: 5px;
+    
+      }
+      
+      .hide{
+        display: none;
+      }
+   }
+  .image a{
+    position: relative;
+    bottom: 372px;
+    left: 310px;
+    font-size: 45px;
+    color: #000;
+    background-color: #0cc0df;
+    border-radius: 40px;
+    padding: 5px 10px;
+    transition: 1s;
+  }
+  .image a:hover{
+    color: #0cc0df;
+    background-color: #000;
+    border: 1px solid #0cc0df;
+  }
+ @media screen and (max-width:900px) and (min-width:601px) {
+  .image img{
+    width: 100%;
+    height: 400px;
+  }
+  .image a{
+    position: relative;
+    bottom: 250px;
+    left: 23%;
+    font-size: 30px;
+    color: #000;
+    background-color: #0cc0df;
+    border-radius: 40px;
+    padding: 5px 10px;
+    transition: 1s;
+  }
+  .image a:hover{
+    color: #0cc0df;
+    background-color: #000;
+    border: 1px solid #0cc0df;
+  }
+ }
+ @media (max-width:600px){
+  .image img{
+    width: 100%;
+    height: 200px;
+  }
+  .image a{
+    position: relative;
+    bottom: 138px;
+    left: 25%;
+    font-size: 15px;
+    color: #000;
+    background-color: #0cc0df;
+    border-radius: 40px;
+    padding: 5px 10px;
+    transition: 1s;
+  }
+  .image a:hover{
+    color: #0cc0df;
+    background-color: #000;
+    border: 1px solid #0cc0df;
+  }
+ }
+.ab h1{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #0cc0df;
+  text-transform: lowercase;
+}
+.ab p{
+  position: relative;
+  left: 150px;
+  top: 120px;
+  text-align: center;
+  width: 1000px;
+  color: #000;
+  font-size: 20px;
+}
+.z{
+  position: relative;
+  top: 140px;
+}
+.why h1{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #0cc0df;
+  text-transform: lowercase;
+  
+}
+ion-icon{
+  color: #0cc0df;
+}
+.ha{
+  position: relative;
+  top: 100px;
+}
+.ha h4{
+  color: #0cc0df;
+  font-size: 20px;
+}
+.ha h6{
+  font-size: 10px;
+  color: #000;
+}
+.a{
+  position: relative;
+  left: 100px;
+  top: 5px;
+}
+.a1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.b{
+  position: relative;
+  left: 500px;
+  bottom: 65px;
+}
+.b1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.c{
+  position: relative;
+  left: 900px;
+  bottom: 135px;
+}
+.c1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.d{
+  position: relative;
+  left: 100px;
+  bottom: 35px;
+}
+.d1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.e{
+  position: relative;
+  left: 500px;
+  bottom: 105px;
+}
+.e1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.f{
+  left: 900px;
+  position: relative;
+  bottom: 170px;
+}
+.f1{
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+
+@media screen and (max-width:900px) and (min-width:601px) {
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .ab h1{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0cc0df;
+    font-size: 25px;
+    text-transform: lowercase;
+  }
+  .ab p{
+    position: relative;
+    left: 10%;
+    top: 100px;
+    text-align: center;
+    width: 80%;
+    color: #000;
+    font-size: 25px;
+  }
+  .why h1{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0cc0df;
+    font-size: 25px;
+    text-transform: lowercase;
+  }
+  ion-icon{
+    color: #0cc0df;
+  }
+  .ha{
+    position: relative;
+    top: 130px;
+  }
+  .ha h4{
+    color: #0cc0df;
+    font-size: 18px;
+  }
+  .ha h6{
+    font-size: 12px;
+    color: #000;
+  }
+  .a{
+    width: 120px;
+    position: relative;
+    left: 110px;
+    top: -10px;
+  }
+  .a1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .b{
+    width: 120px;
+    position: relative;
+    left: 360px;
+    bottom: 115px;
+  }
+  .b1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .c{
+    width: 120px;
+    position: relative;
+    left: 610px;
+    bottom: 235px;
+  }
+  .c1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .d{
+    width: 100px;
+    position: relative;
+    left: 110px;
+    bottom: 200px;
+  }
+  .d1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .e{
+    width: 100px;
+    position: relative;
+    left: 360px;
+    bottom: 320px;
+  }
+  .e1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .f{
+    width: 100px;
+    left: 610px;
+    position: relative;
+    bottom: 460px;
+  }
+  .f1{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+ 
+
+}
+@media screen and (max-width:600px) {
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .ab h1{
+    text-transform: lowercase;
+    font-size: 20px;
+  }
+  .ab p{
+    position: relative;
+    left: 10%;
+    top: 80px;
+    /* text-align: center; */
+    width: 80%;
+    color: #000;
+    font-size: 15px;
+  }
+  .why h1{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0cc0df;
+    text-transform: lowercase;
+    font-size: 20px;
+    
+  }
+  ion-icon{
+    color: #0cc0df;
+  }
+  .ha{
+    position: relative;
+    top: 130px;
+  }
+  .ha h4{
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  .ha h6{
+    display: none;
+  }
+  .a{
+    width: 100px;
+    position: relative;
+    left: 15%;
+    top:-50px;
+  }
+  .a1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+    
+  }
+  .b{
+    width: 100px;
+    position: relative;
+    left: 62%;
+    bottom: 110px;
+  }
+  .b1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+  }
+  .c{
+    width: 100px;
+    position: relative;
+    left: 15%;
+    bottom:65px;
+  }
+  .c1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+  }
+  .d{
+    width: 100px;
+    position: relative;
+    left: 62%;
+    bottom: 135px;
+  }
+  .d1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+  }
+  .e{
+    width: 100px;
+    position: relative;
+    left: 15%;
+    bottom: 100px;
+  }
+  .e1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+  }
+  .f{
+    width: 100px;
+    left: 62%;
+    position: relative;
+    bottom: 150px;
+  }
+  .f1{
+    font-size: 30px;
+    position: relative;
+    top: -1px;
+    left: 20px;
+  }
+}
+  
+.footer{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer{
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 400px;
+  background:#e1e3e6;
+}
+
+.co{
+  width: 400px ;
+  border-right: 1px solid #000;
+  position: relative;
+  top: 50px;
+}
+.co img{
+  width: 200px;
+  position: relative;
+  left: 20px;
+  top: -40px;
+ 
+}
+.co h3{
+  width: 300px;
+  padding-top: 30px;
+  position: relative;
+  left: 40px;
+  bottom: 50px;
+  color: #000;
+}
+.archat{
+  
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+  color: #0cc0df;
+  
+}
+.archat h3{
+  font-size: 30px;
+}
+.archat ul{
+  position: relative;
+  left: 15px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.archat ul li{
+  padding: 15px;
+}
+.service{
+  position: relative;
+  left: 800px;
+  bottom: 395px;
+  color: #0cc0df;
+}
+.service h3{
+  font-size: 30px;
+} 
+.service ul{
+  position: relative;
+  left: 0px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.service  ul li{
+  padding: 4px;
+}
+.contact{
+  position: relative;
+  bottom: 613px;
+  left: 1100px;
+  color: #0cc0df;
+}
+.contact a {
+  color: #000;
+  text-decoration: none;
+}
+.contact h3{
+  font-size: 30px;
+}
+.contact ul{
+  position: relative;
+  left: 15px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.contact ul li{
+  padding: 15px;
+}
+.follow{
+  position: relative;
+  bottom: 490px;
+  width: 100%;
+  height: 50px;
+  color: #000;
+  background-color:#0cc0df ;
+}
+.follow a img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 1070px;
+  bottom: 15px;
+  padding: 5px;
+
+}
+.follow h3{
+  position: relative;
+  left: 970px;
+  top: 15px;
+}
+.footer li{
+  color: #000;
+}
+@media screen and (max-width:600px) {
+  .footer{
+      
+      position: relative;
+      top: 50px;
+      width: 100%;
+      height: 300px;
+      
+  }
+  .co{
+      width: 120px ;
+      height: 180px;
+      position: relative;
+      top: 50px;
+  }
+  .co img{
+      width: 120px;
+      position: relative;
+      left: -3%;
+      top: -45px;
+     
+  }
+  .co h3{
+      width: 100px;
+      height: 100px;
+      padding-top: 2px;
+      position: relative;
+      left: 5%;
+      bottom: 40px;
+      
+      font-size: 12px;
+  }
+  .archat{
+      
+      position: relative;
+      left: 36%;
+      bottom: 130px;
+     
+      
+  }
+  .archat h3{
+      font-size: 15px;
+  }
+  .archat ul{
+      list-style: none;
+      position: relative;
+      left: 3%;
+      top: 2%;
+      font-size: 10px;
+  }
+  .archat ul li{
+      padding: 2px;
+  }
+  .service{
+      position: relative;
+      left: 67%;
+      bottom: 193px;
+      
+  }
+  .service h3{
+      font-size: 15px;
+  } 
+  .service ul{
+      list-style: none;
+      position: relative;
+      left: -2%;
+      top: 10px;
+      font-size: 10px;
+  }
+  .service  ul li{
+      padding: 2%;
+  }
+  .contact{
+      position: relative;
+      bottom: 263px;
+      left: 36%;
+      
+  }
+ 
+  .contact h3{
+      font-size: 15px;
+  }
+  .contact ul{
+      list-style: none;
+      position: relative;
+      left: 1%;
+      top: -3%;
+      font-size: 10px;
+  }
+  .contact ul li{
+      padding: 1%;
+  }
+  .follow{
+      position: relative;
+      bottom: 230px;
+      width: 100%;
+      height: 50px;
+      
+  }
+  .follow a img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      left: 70%;
+      bottom: 4px;
+      padding: 2px;
+  
+  }
+  .follow h3{
+      font-size: 15px;
+      position: relative;
+      left: 52%;
+      top: 15px;
+  }
+  
+}
+@media screen and (max-width:900px) and (min-width:601px){
+  .footer{
+      position: relative;
+      top: -250px;
+      width: 100%;
+      height: 390px;
+      
+  }
+  
+  .co{
+      width: 250px ;
+      height: 250px;
+      position: relative;
+      top: 50px;
+  }
+  .co img{
+      width: 200px;
+      position: relative;
+      left: 2%;
+      top: -40px;
+     
+  }
+  .co h3{
+      width: 200px;
+      padding-top: 30px;
+      position: relative;
+      left: 5%;
+      bottom: 50px;
+      
+  }
+  .archat{
+      
+      position: relative;
+      left: 35%;
+      bottom: 200px;
+      
+      
+  }
+  .archat h3{
+      font-size: 20px;
+  }
+  .archat ul{
+      position: relative;
+      left:1%;
+      top: 30px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .archat ul li{
+      padding: 10px;
+  }
+  .service{
+      position: relative;
+      left: 55%;
+      bottom: 343px;
+      
+  }
+  .service h3{
+      font-size: 20px;
+  } 
+  .service ul{
+      position: relative;
+      
+      top: 10px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .service  ul li{
+      padding: 4px;
+  }
+  .contact{
+      position: relative;
+      bottom: 532px;
+      left: 83%;
+     
+  }
+  .contact a {
+      
+      text-decoration: none;
+  }
+  .contact h3{
+      font-size: 20px;
+  }
+  .contact ul{
+      position: relative;
+      left:0;
+      top: 30px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .contact ul li{
+      padding: 10px;
+  }
+  .follow{
+      position: relative;
+      bottom: 380px;
+      width: 100%;
+      height: 50px;
+      
+  }
+  .follow a img{
+      width: 30px;
+      height: 30px;
+      position: relative;
+      left: 75%;
+      bottom: 15px;
+      padding: 5px;
+  
+  }
+  .follow h3{
+      position: relative;
+      left: 62%;
+      top: 15px;
+  }
+}

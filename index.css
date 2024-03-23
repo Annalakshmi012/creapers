@@ -1,0 +1,1530 @@
+body{
+    
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.navbar img{
+  height: 80px;
+  position: relative;
+  bottom: 0px;
+}
+.navbar{
+  list-style: none;  
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  
+  background-color: #fff;
+  box-sizing: border-box;
+  position: sticky;
+  
+  
+}
+.image img{
+  width: 100%;
+  height: 600px;
+}
+
+@media (min-width:901px){
+  
+  .navbar .navbar-item{
+      position: absolute;
+      right: 10px;
+      top:20px;
+  }
+  .navbar-item{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 60px;
+   padding-left: 60px;
+  }
+  .navbar .navbar-item ul li{
+      display: inline;
+      margin-right: 15px;
+      
+  }
+  .navbar .navbar-item ul li a{
+      color: #000;
+      
+      font-size: 17px;
+      transition: 0.3s;
+      transform: scaleX(0);
+      padding: 4px;
+      border:o solid;
+  }
+  .navbar .navbar-item ul li a:hover{
+      border-bottom: 1px solid #0cc0df;
+      
+      transform: scaleX(1);
+      color: #0cc0df;
+    }
+  .navbar-btn{
+      display:none;
+  }
+  
+  
+  }
+  @media (max-width:900px){
+    .navbar img{
+      height: 40px;
+    }
+    
+      .navbar .navbar-item ul {
+        width: 25%;
+        position: relative;
+        left: 75%;
+        bottom: 10%;
+        background-color: #0cbfdfbd;
+        border-radius: 10px;
+        list-style-type: none;
+        padding: 0;
+      }
+    
+      .navbar .navbar-item ul li{
+        
+        margin-top: 15px;
+        padding-bottom: 15px;
+        border-bottom:1px solid rgba(255,255,255,0.6);
+      }
+      .navbar .navbar-item ul li:last-child{
+        
+        
+        border-bottom:none;
+      }
+      .navbar .navbar-item ul li a{
+        color: white;
+        position: relative;
+        left: 12%;
+        top: 10px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .navbar-btn{
+        border:none;
+        background: none;
+        /* border:1px solid #2070c0; */
+        padding:5px;
+        position: absolute;
+        right:10px;
+        top:15px;
+        cursor: pointer;
+      }
+      .navbar-btn span{
+        display: block;
+        width: 20px;
+        border-top:1px solid #000;
+        
+      }
+      .navbar-btn span:not(:last-child){
+        margin-bottom: 5px;
+    
+      }
+      
+      .hide{
+        display: none;
+      }
+   }
+  
+  
+.im{
+  position: relative;
+  left: 600px;
+  top: 25px;
+  width: 100%;
+  height: 100%;
+}
+.e{
+  position: relative;
+  bottom: 400px;
+}
+.ser h3{
+  color: #0cc0df;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 50px;
+}
+.ser p{
+  position: relative;
+  left: 150px;
+  top: 140px;
+  text-align: center;
+  width: 1000px;
+  color: #000;
+  font-size: 30px;
+}
+.s1 img{
+  width: 400px;
+  height: 400px;
+  right: 40px;
+  position:relative;
+  bottom: 50px;
+  border-radius: 30px;
+}
+.s1{
+  background-color: #fff;
+  position: relative;
+  top: 250px;
+  left: 180px;
+  width: 75%;
+  height: 300px;
+  
+}
+.a{
+  width: 500px;
+  position: relative;
+  left: 410px;
+  bottom: 350px;
+  border-left: 1px solid #000;
+  padding: 25px;
+}
+.a h4{
+  color: #0cc0df;
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+  font-size: 40px;
+}
+.a h6{
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+.s2 img{
+  width: 400px;
+  height: 400px;
+  left: 610px;
+  position:relative;
+  bottom: 50px;
+  border-radius: 30px;
+}
+.s2{
+  background-color: #fff;
+  position: relative;
+  top: 430px;
+  left: 140px;
+  width: 75%;
+  height: 300px;
+  
+}
+.b{
+  width: 500px;
+  position: relative;
+  left: 10px;
+  bottom: 350px;
+  border-right: 1px solid #000;
+  padding: 25px;
+}
+.b h4{
+  color: #0cc0df;
+  position: relative;
+  left: 0px;
+  bottom: 20px;
+  font-size: 40px;
+}
+.b h6{
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+}
+.s3 img{
+  width: 400px;
+  height: 400px;
+  right: 40px;
+  position:relative;
+  bottom: 50px;
+  border-radius: 30px;
+}
+.s3{
+  background-color: #fff;
+  position: relative;
+  top: 590px;
+  left: 180px;
+  width: 75%;
+  height: 300px;
+  
+}
+.c{
+  width: 500px;
+  position: relative;
+  left: 410px;
+  bottom: 350px;
+  border-left: 1px solid #000;
+  padding: 25px;
+}
+.c h4{
+  color: #0cc0df;
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+  font-size: 40px;
+}
+.c h6{
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+.sp{
+  position: relative;
+  top: 700px;
+}
+.sp h3{
+  color: #0cc0df;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 50px;
+}
+.sp p{
+  position: relative;
+  left: 150px;
+  top: 140px;
+  text-align: center;
+  width: 1000px;
+  color: #000;
+  font-size: 30px;
+}
+.sp img{
+  width: 100%;
+  height: 550px;
+  position: relative;
+  top: 200px;
+}
+.l p{
+    position: relative;
+    top: 850px;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    font-size: 30px;
+    color: #000;
+}
+@media screen and (min-width:901px){
+  .webd{
+    position: relative;
+    top: 1100px;
+    left: 170px;
+  }
+  .web img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  
+  }
+  .web{
+    background-color: #e1e3e6;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .web h4{
+    font-size: 40px;
+    color: #0cc0df;
+    position: relative;
+    left: 220px;
+    bottom: 170px;
+  }
+  .web h6{
+    width: 500px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+  }
+  .w ul{
+    width: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 280px;
+    color: #000;
+    font-size: 25px;
+    list-style-type: circle;
+  
+  
+  }
+  .w li{
+    padding: 10px;
+  }
+  .ui{
+    position: relative;
+    top: 1100px;
+    left: 170px;
+  }
+  .ux img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  
+  }
+  .ux{
+    background-color: #e1e3e6;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+  }
+  .ux h4{
+    font-size: 38px;
+    color: #0cc0df;
+    position: relative;
+    left: 210px;
+    bottom: 170px;
+  }
+  .ux h6{
+    width: 500px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 130px;
+  }
+  .u ul{
+    position: relative;
+    left: 600px;
+    bottom: 280px;
+    color: #000;
+    font-size: 25px;
+    list-style-type: circle;
+    
+  
+  }
+  .u li{
+    padding: 10px;
+  }
+  .u{
+    position: relative;
+    right: 600px;
+    bottom: 100px;
+  }
+  .ad{
+    position: relative;
+    top: 1100px;
+    left: 170px;
+  }
+  .da img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  
+  }
+  .da{
+    background-color: #e1e3e6;
+    position: relative;
+    bottom: 150px;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .da h4{
+    font-size: 40px;
+    color: #0cc0df;
+    position: relative;
+    left: 220px;
+    bottom: 170px;
+  }
+  .da h6{
+    width: 500px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 130px;
+  }
+  .ab ul{
+    position: relative;
+    left: 700px;
+    bottom: 420px;
+    color: #000;
+    font-size: 25px;
+    list-style-type: circle;
+  
+  
+  }
+  .ab li{
+    padding: 10px;
+  } 
+  
+}
+@media screen and (max-width:900px) and (min-width:601px){
+  html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .navbar img{
+    height: 60px;
+    position: relative;
+    bottom: 13px;
+    right: 6px;
+  }
+  .im{
+    position: relative;
+    left: 25%;
+    top: 25px;
+    width: 100%;
+    height: 100%;
+  }
+  .e{
+    position: relative;
+    bottom: 400px;
+  }
+  
+  .image img{
+    width: 100%;
+    height: 400px;
+  }
+  .ser h3{
+    color: #0cc0df;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 40px;
+  }
+  .ser p{
+    position: relative;
+    left: 10%;
+    top: 140px;
+    text-align: center;
+    width: 80%;
+    color: #000;
+    font-size: 25px;
+  }
+  .s1 img{
+    width: 320px;
+    height: 320px;
+    right: 40px;
+    position:relative;
+    bottom: 30px;
+  }
+  .s1{
+    background-color: #fff;
+    position: relative;
+    top: 250px;
+    left: 105px;
+    width: 80%;
+    height: 250px;
+    
+  }
+  .a{
+    width: 40%;
+    position: relative;
+    left: 310px;
+    bottom: 270px;
+    border-left: 1px solid #000;
+    padding: 25px;
+  }
+  .a h4{
+    color: #0cc0df;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  .a h6{
+    color: #000;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .s2 img{
+    width: 320px;
+    height: 320px;
+    left: 56%;
+    position:relative;
+    bottom: 40px;
+  }
+  .s2{
+    background-color: #fff;
+    position: relative;
+    top: 380px;
+    left: 60px;
+    width: 80%;
+    height: 250px;
+  }
+  .b{
+    width: 40%;
+    position: relative;
+    left: 10px;
+    bottom: 290px;
+    border-right: 1px solid #000;
+    padding: 25px;
+  }
+  .b h4{
+    color: #0cc0df;
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  .b h6{
+    color: #000;
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+  }
+  .s3 img{
+    width: 320px;
+    height: 320px;
+    right: 40px;
+    position:relative;
+    bottom: 35px;
+  }
+  .s3{
+    background-color: #fff;
+    position: relative;
+    top: 490px;
+    left: 105px;
+    width: 80%;
+    height: 250px;
+    
+  }
+  .c{
+    width: 40%;
+    position: relative;
+    left: 310px;
+    bottom: 300px;
+    border-left: 1px solid #000;
+    padding: 25px;
+  }
+  .c h4{
+    color: #0cc0df;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  .c h6{
+    color: #000;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+  }
+  .sp{
+    position: relative;
+    top: 550px;
+  }
+  .sp h3{
+    color: #0cc0df;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 40px;
+  }
+  .sp p{
+    position: relative;
+    left: 10%;
+    top: 140px;
+    text-align: center;
+    width: 80%;
+    color: #000;
+    font-size: 25px;
+  }
+  .sp img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 200px;
+  }
+
+  .webd{
+    position: relative;
+    top: 900px;
+    left: 90px;
+  }
+  .web img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+    right: 40px;
+  
+  }
+  .web{
+    background-color: #e1e3e6;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .web h4{
+    font-size: 30px;
+    color: #0cc0df;
+    position: relative;
+    left: 180px;
+    bottom: 120px;
+  }
+  .web h6{
+    width: 370px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    bottom: 80px;
+  }
+  .w ul{
+    width: 300px;
+    position: relative;
+    left: 70%;
+    bottom: 280px;
+    color: #000;
+    font-size: 25px;
+    list-style-type: circle;
+  
+  
+  }
+  .w li{
+    padding: 10px;
+  }
+  .w ul{
+    width: 300px;
+    position: relative;
+    left: 60%;
+    bottom: 270px;
+    color: #000;
+    font-size: 20px;
+    list-style-type: circle;
+  
+  
+  }
+  .w li{
+    padding: 10px;
+  }
+  .ui{
+    position: relative;
+    top: 900px;
+    left: 90px;
+  }
+  .ux img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+    right: 40px;
+  }
+  .ux{
+    background-color: #e1e3e6;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    bottom: 100px;
+  }
+  .ux h4{
+    font-size: 27px;
+    color: #0cc0df;
+    width: 50%;
+    position: relative;
+    left: 170px;
+    bottom: 140px;
+  }
+  .ux h6{
+    width: 370px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    bottom: 100px;
+  }
+  .u ul{
+    position: relative;
+    left: 600px;
+    bottom: 230px;
+    color: #000;
+    font-size: 20px;
+    list-style-type: circle;
+    
+  
+  }
+  .u li{
+    padding: 10px;
+  }
+  .u{
+    position: relative;
+    right: 600px;
+    bottom: 100px;
+  }
+  .ad{
+    position: relative;
+    top: 900px;
+    left: 90px;
+  }
+  .da img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+    right: 40px;
+  
+  }
+  .da{
+     background-color: #e1e3e6;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+  }
+  .da h4{
+    font-size: 30px;
+    color: #0cc0df;
+    position: relative;
+    left: 180px;
+    bottom: 120px;
+  }
+  .da h6{
+    width: 370px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    bottom: 80px;
+  }
+  .ab ul{
+    width: 300px;
+    position: relative;
+    left: 60%;
+    bottom: 420px;
+    color: #000;
+    font-size: 20px;
+    list-style-type: circle;
+  
+  
+  }
+  .ab li{
+    padding: 10px;
+  }
+  .l p{
+    position: relative;
+    font-size: 25px;
+    top: 650px;
+    color: #000;
+    width: 80%;
+    left: 10%;
+  }
+}
+@media screen and (max-width:600px){
+  .image img{
+    width: 100%;
+    height: 200px;
+  }
+  
+  .ser h3{
+    color: #0cc0df;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 25px;
+  }
+  .ser p{
+    position: relative;
+    left: 10%;
+    top: 80px;
+    text-align: center;
+    width: 80%;
+    color: #000;
+    font-size: 15px;
+  }
+  .s1 img{
+    width: 180px;
+    height: 200px;
+    right: 40px;
+    position:relative;
+    bottom: 20px;
+  }
+  .s1{
+    background-color: #fff;
+    position: relative;
+    top: 180px;
+    left: 14%;
+    width: 83%;
+    height: 160px;
+    
+  }
+  .a{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 150px;
+    bottom: 170px;
+    border-left: 1px solid #000;
+    padding: 10px;
+  }
+  .a h4{
+    color: #0cc0df;
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+    font-size: 16px;
+  }
+  .a h6{
+    color: #000;
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+  }
+  .s2 img{
+    width: 180px;
+    height: 200px;
+   
+    position:relative;
+    bottom: 20px;
+    left:53%;
+  }
+  .s2{
+    background-color: #fff;
+    position: relative;
+    top: 250px;
+    left: 5%;
+    width: 83%;
+    height: 160px;
+  }
+  .b{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 10px;
+    bottom: 160px;
+    border-right: 1px solid #000;
+    padding: 10px;
+  }
+  .b h4{
+    color: #0cc0df;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+    font-size: 16px;
+  }
+  .b h6{
+    color: #000;
+    font-size: 10px;
+    position: relative;
+    left: 0px;
+    bottom: 30px;
+  }
+  .s3 img{
+    width: 180px;
+    height: 200px;
+    right: 40px;
+    position:relative;
+    bottom: 20px;
+  }
+  .s3{
+    background-color: #fff;
+    position: relative;
+    top: 330px;
+    left: 55px;
+    width: 83%;
+    height: 160px;
+    
+    
+  }
+  .c{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 150px;
+    bottom: 160px;
+    border-left: 1px solid #000;
+    padding: 10px;
+  }
+  .c h4{
+    color: #0cc0df;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+    font-size: 16px;
+  }
+  .c h6{
+    color: #000;
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+
+  }
+  .sp{
+    position: relative;
+    top: 350px;
+    left: 5px;
+  }
+  .sp h3{
+    color: #0cc0df;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 25px;
+  }
+  .sp p{
+    position: relative;
+    left: 10%;
+    top: 80px;
+    /* text-align: center; */
+    width: 80%;
+    color: #000;
+    font-size: 15px;
+  }
+  .sp img{
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: 120px;
+    left: 0;
+  }
+  .webd{
+    position: relative;
+    top: 550px;
+    left: 20px;
+  }
+  .web img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+  
+  }
+  .web{
+    background-color: #e1e3e6;
+    width: 60%;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .web h4{
+    font-size: 15px;
+    color: #0cc0df;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+  }
+  .web h6{
+    width: 90%;
+    color: #000;
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+  }
+  .w ul{
+    width: 100px;
+    position: relative;
+    left: 68%;
+    top: -190px;
+    color: #000;
+    font-size: 12px;
+    list-style-type: circle;
+  
+  
+  }
+  .w li{
+    padding: 5px;
+  }
+  .ui{
+    position: relative;
+    top: 440px;
+    left: 300px;
+  }
+  .ux img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+  
+  }
+  .ux{
+    background-color: #e1e3e6;
+    width: 60%;
+    height: 180px;
+    border-radius: 10px;
+    position: relative;
+    right: 165px;
+  }
+  .ux h4{
+    font-size: 14px;
+    width: 50%;
+    color: #0cc0df;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+  }
+  .ux h6{
+    width: 90%;
+    color: #000;
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+  }
+  .u ul{
+    width: 100px;
+    position: relative;
+    left: -465px;
+    top: -710px;
+    color: #000;
+    font-size: 12px;
+    list-style-type: circle;
+  
+  }
+  .u li{
+    padding: 5px;
+  }
+  .u{
+    position: relative;
+    top: 550px;
+    left: 200px;
+  }
+  .ad{
+    position: relative;
+    top: 400px;
+    left: 20px;
+  }
+  .da img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+  
+  }
+  .da{
+    background-color: #e1e3e6;
+    width: 60%;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .da h4{
+    font-size: 15px;
+    color: #0cc0df;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+  }
+  .da h6{
+    width: 90%;
+    color: #000;
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+  }
+  .ab ul{
+    width: 100px;
+    position: relative;
+    left: 68%;
+    top: -170px;
+    color: #000;
+    font-size: 12px;
+    list-style-type: circle;
+  
+  
+  }
+  .ab li{
+    padding: 5px;
+  }
+  .l p{
+    position: relative;
+    top: 350px;
+    font-size: 15px;
+
+    color: 000;
+  }
+  .k{
+    position: relative;
+    bottom: 30px;
+  }
+}
+.footer{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer{
+  position: relative;
+  top: 900px;
+  width: 100%;
+  height: 400px;
+  background:#e1e3e6;
+}
+
+.co{
+  width: 400px ;
+  border-right: 1px solid #000;
+  position: relative;
+  top: 50px;
+}
+.co img{
+  width: 200px;
+  position: relative;
+  left: 20px;
+  top: -40px;
+ 
+}
+.co h3{
+  width: 300px;
+  padding-top: 30px;
+  position: relative;
+  left: 40px;
+  bottom: 50px;
+  color: #000;
+}
+.archat{
+  
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+  color: #0cc0df;
+  
+}
+.archat h3{
+  font-size: 30px;
+}
+.archat ul{
+  position: relative;
+  left: 15px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.archat ul li{
+  padding: 15px;
+}
+.service{
+  position: relative;
+  left: 800px;
+  bottom: 395px;
+  color: #0cc0df;
+}
+.service h3{
+  font-size: 30px;
+} 
+.service ul{
+  position: relative;
+  left: 0px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.service  ul li{
+  padding: 4px;
+}
+.contact{
+  position: relative;
+  bottom: 613px;
+  left: 1100px;
+  color: #0cc0df;
+}
+.contact a {
+  color: #000;
+  text-decoration: none;
+}
+.contact h3{
+  font-size: 30px;
+}
+.contact ul{
+  position: relative;
+  left: 15px;
+  top: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+.contact ul li{
+  padding: 15px;
+}
+.follow{
+  position: relative;
+  bottom: 490px;
+  width: 100%;
+  height: 50px;
+  color: #000;
+  background-color:#0cc0df ;
+}
+.follow a img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 1070px;
+  bottom: 15px;
+  padding: 5px;
+
+}
+.follow h3{
+  position: relative;
+  left: 970px;
+  top: 15px;
+}
+.footer li{
+  color: #000;
+}
+@media screen and (max-width:600px) {
+  .footer{
+      
+      position: relative;
+      top: 390px;
+      width: 100%;
+      height: 300px;
+      
+  }
+  .co{
+      width: 120px ;
+      height: 180px;
+      position: relative;
+      top: 50px;
+  }
+  .co img{
+      width: 120px;
+      position: relative;
+      left: -3%;
+      top: -45px;
+     
+  }
+  .co h3{
+      width: 100px;
+      height: 100px;
+      padding-top: 2px;
+      position: relative;
+      left: 5%;
+      bottom: 40px;
+      
+      font-size: 12px;
+  }
+  .archat{
+      
+      position: relative;
+      left: 36%;
+      bottom: 130px;
+     
+      
+  }
+  .archat h3{
+      font-size: 15px;
+  }
+  .archat ul{
+      list-style: none;
+      position: relative;
+      left: 3%;
+      top: 2%;
+      font-size: 10px;
+  }
+  .archat ul li{
+      padding: 2px;
+  }
+  .service{
+      position: relative;
+      left: 67%;
+      bottom: 193px;
+      
+  }
+  .service h3{
+      font-size: 15px;
+  } 
+  .service ul{
+      list-style: none;
+      position: relative;
+      left: -2%;
+      top: 10px;
+      font-size: 10px;
+  }
+  .service  ul li{
+      padding: 2%;
+  }
+  .contact{
+      position: relative;
+      bottom: 263px;
+      left: 36%;
+      
+  }
+ 
+  .contact h3{
+      font-size: 15px;
+  }
+  .contact ul{
+      list-style: none;
+      position: relative;
+      left: 1%;
+      top: -3%;
+      font-size: 10px;
+  }
+  .contact ul li{
+      padding: 1%;
+  }
+  .follow{
+      position: relative;
+      bottom: 230px;
+      width: 100%;
+      height: 50px;
+      
+  }
+  .follow a img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      left: 70%;
+      bottom: 4px;
+      padding: 2px;
+  
+  }
+  .follow h3{
+      font-size: 15px;
+      position: relative;
+      left: 52%;
+      top: 15px;
+  }
+  
+}
+@media screen and (max-width:900px) and (min-width:601px){
+  .footer{
+      position: relative;
+      top: 700px;
+      width: 100%;
+      height: 390px;
+      
+  }
+  
+  .co{
+      width: 250px ;
+      height: 250px;
+      position: relative;
+      top: 50px;
+  }
+  .co img{
+      width: 200px;
+      position: relative;
+      left: 2%;
+      top: -40px;
+     
+  }
+  .co h3{
+      width: 200px;
+      padding-top: 30px;
+      position: relative;
+      left: 5%;
+      bottom: 50px;
+      
+  }
+  .archat{
+      
+      position: relative;
+      left: 35%;
+      bottom: 200px;
+      
+      
+  }
+  .archat h3{
+      font-size: 20px;
+  }
+  .archat ul{
+      position: relative;
+      left:1%;
+      top: 30px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .archat ul li{
+      padding: 10px;
+  }
+  .service{
+      position: relative;
+      left: 55%;
+      bottom: 343px;
+      
+  }
+  .service h3{
+      font-size: 20px;
+  } 
+  .service ul{
+      position: relative;
+      
+      top: 10px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .service  ul li{
+      padding: 4px;
+  }
+  .contact{
+      position: relative;
+      bottom: 532px;
+      left: 83%;
+     
+  }
+  .contact a {
+      
+      text-decoration: none;
+  }
+  .contact h3{
+      font-size: 20px;
+  }
+  .contact ul{
+      position: relative;
+      left:0;
+      top: 30px;
+      font-size: 18px;
+      list-style: none;
+  }
+  .contact ul li{
+      padding: 10px;
+  }
+  .follow{
+      position: relative;
+      bottom: 380px;
+      width: 100%;
+      height: 50px;
+      
+  }
+  .follow a img{
+      width: 30px;
+      height: 30px;
+      position: relative;
+      left: 75%;
+      bottom: 15px;
+      padding: 5px;
+  
+  }
+  .follow h3{
+      position: relative;
+      left: 62%;
+      top: 15px;
+  }
+}

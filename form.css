@@ -1,0 +1,250 @@
+.card {
+  width: 800px;
+  height: 500px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #edeef3;
+  position: relative;
+  left: 250px;
+  top: 50px;
+  box-shadow: 10px 10px 10px -1px #d8d4d4, -10px -10px 10px -1px #f3f3f3;
+}
+.card:hover {
+  box-shadow: inset 10px 10px 10px -1px #d8d4d4,
+    inset -10px -10px 10px -1px #f3f3f3;
+}
+body {
+  background-color: #edeef3;
+}
+body .cr {
+  color: red;
+  border-radius: 60px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: #0cc0df;
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+.name {
+  position: relative;
+  left: 70px;
+  top: 100px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-color: #edeef3 #edeef3 #0cc0df #edeef3;
+  border-style: solid;
+  background-color: #edeef3;
+  outline-style: none;
+}
+.mail {
+  position: relative;
+  left: 450px;
+  top: 62px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-color: #edeef3 #edeef3 #0cc0df#edeef3;
+  border-style: solid;
+  background-color: #edeef3;
+  outline-style: none;
+}
+.phone {
+  position: relative;
+  left: 70px;
+  top: 100px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-color: #edeef3 #edeef3 #0cc0df #edeef3;
+  border-style: solid;
+  background-color: #edeef3;
+  outline-style: none;
+}
+.project {
+  position: relative;
+  left: 450px;
+  top: 62px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-color: #edeef3 #edeef3 #0cc0df#edeef3;
+  border-style: solid;
+  background-color: #edeef3;
+  outline-style: none;
+}
+.msg {
+  position: relative;
+  left: 70px;
+  top: 100px;
+  height: 70px;
+  width: 640px;
+  border: none;
+  border-color: #edeef3 #edeef3 #0cc0df #edeef3;
+  border-style: solid;
+  background-color: #edeef3;
+  outline-style: none;
+}
+::placeholder {
+  color: #000;
+  padding-left: 5px;
+}
+button {
+  position: relative;
+  left: 350px;
+  top: 150px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  color: #0cc0df;
+  background-color: #edeef3;
+  box-shadow: 3px 3px 1px 1px #d8d4d4, -3px -3px 1px 1px #fffcfc;
+}
+button:active {
+  box-shadow: inset 3px 3px 2px 1px #d8d4d4, inset -3px -3px 2px 1px #fffcfc;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .card {
+    width: 90%;
+    height: 620px;
+    position: relative;
+    left: 5%;
+  }
+  h1 {
+    position: relative;
+    top: 40px;
+  }
+  .name {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .phone {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .mail {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 210px;
+  }
+  .project {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+  .msg {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+  button {
+    position: relative;
+    left: 40%;
+    top: 220px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .card {
+    width: 80%;
+    height: 620px;
+    position: relative;
+    left: 10%;
+  }
+  h1 {
+    position: relative;
+    top: 40px;
+  }
+  .name {
+    width: 80%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .phone {
+    width: 80%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .mail {
+    width: 80%;
+    position: relative;
+    left: 50px;
+    top: 210px;
+  }
+  .project {
+    width: 80%;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+  .msg {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+  button {
+    position: relative;
+    left: 40%;
+    top: 220px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 2500px) {
+  .card {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    left: 10%;
+  }
+  h1 {
+    position: relative;
+    top: 40px;
+  }
+  .name {
+    width: 40%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .phone {
+    width: 40%;
+    position: relative;
+    left: 550px;
+    top: 25px;
+  }
+  .mail {
+    width: 40%;
+    position: relative;
+    left: 50px;
+    top: 180px;
+  }
+  .project {
+    width: 40%;
+    position: relative;
+    left: 550px;
+    top: 105px;
+  }
+  .msg {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 150px;
+  }
+  button {
+    position: relative;
+    left: 40%;
+    top: 200px;
+  }
+}
